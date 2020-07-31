@@ -1,0 +1,3 @@
+usuario=damian
+contrasena=nymeria
+url=dereisendrachen.ddns.net

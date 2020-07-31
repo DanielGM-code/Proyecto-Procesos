@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" >
+   <children>
+      <Pane prefHeight="645.0" prefWidth="910.0">
+         <children>
+            <ImageView fitHeight="652.0" fitWidth="1061.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/InformacionUnidad.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" layoutX="153.0" layoutY="92.0" stroke="TRANSPARENT" strokeType="INSIDE" width="296.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="115.0" layoutX="62.0" layoutY="177.0" stroke="TRANSPARENT" strokeType="INSIDE" width="820.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="115.0" layoutX="62.0" layoutY="332.0" stroke="TRANSPARENT" strokeType="INSIDE" width="820.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="115.0" layoutX="62.0" layoutY="496.0" stroke="TRANSPARENT" strokeType="INSIDE" width="820.0" />
+            <Button fx:id="buttonRegresar" layoutX="28.0" layoutY="14.0" mnemonicParsing="false" onAction="#regresar" opacity="0.0" prefHeight="52.0" prefWidth="60.0" text="Button" />
+            <Label fx:id="labelFechas" layoutX="168.0" layoutY="97.0" prefHeight="23.0" prefWidth="267.0" text="Label" />
+            <Label fx:id="labelTemas" layoutX="75.0" layoutY="184.0" prefHeight="101.0" prefWidth="798.0" text="Label" />
+            <Label fx:id="labelTareas" layoutX="73.0" layoutY="339.0" prefHeight="101.0" prefWidth="798.0" text="Label" />
+            <Label fx:id="labelTecnicas" layoutX="73.0" layoutY="503.0" prefHeight="101.0" prefWidth="798.0" text="Label" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="714.0" fitWidth="1226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagenes/InformaciónPlanCurso.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutY="3.0" opacity="0.74" prefHeight="708.0" prefWidth="1006.0">
+         <children>
+            <Button fx:id="buttonRegresar" layoutX="28.0" layoutY="14.0" mnemonicParsing="false" onAction="#regresar" opacity="0.0" prefHeight="57.0" prefWidth="63.0" text="Button" />
+            <Label fx:id="labelAcademico" layoutX="218.0" layoutY="140.0" prefHeight="17.0" prefWidth="315.0" />
+            <Label fx:id="labelNRC" layoutX="212.0" layoutY="94.0" prefHeight="17.0" prefWidth="114.0" />
+            <Label fx:id="labelCurso" layoutX="434.0" layoutY="94.0" prefHeight="17.0" prefWidth="168.0" />
+            <Label fx:id="labelPeriodo" layoutX="725.0" layoutY="94.0" prefHeight="17.0" prefWidth="140.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="92.0" layoutY="443.0" stroke="TRANSPARENT" strokeType="INSIDE" width="511.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="92.0" layoutY="478.0" stroke="TRANSPARENT" strokeType="INSIDE" width="511.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="92.0" layoutY="512.0" stroke="TRANSPARENT" strokeType="INSIDE" width="511.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="92.0" layoutY="547.0" stroke="TRANSPARENT" strokeType="INSIDE" width="511.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="92.0" layoutY="581.0" stroke="TRANSPARENT" strokeType="INSIDE" width="511.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="92.0" layoutY="616.0" stroke="TRANSPARENT" strokeType="INSIDE" width="511.0" />
+            <Label layoutX="307.0" layoutY="448.0" text="Criterio de evaluación">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="320.0" layoutY="483.0" text="Resolución acertada">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="320.0" layoutY="517.0" text="Resolución acertada">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="192.0" layoutY="552.0" text="Entrega puntual, completo, pertinente, buena ortografía y redacción">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="625.0" layoutY="445.0" stroke="TRANSPARENT" strokeType="INSIDE" width="182.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="829.0" layoutY="444.0" stroke="TRANSPARENT" strokeType="INSIDE" width="91.0" />
+            <Label layoutX="844.0" layoutY="449.0" text="Porcentaje">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="681.0" layoutY="449.0" text="Instrumento">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="625.0" layoutY="478.0" stroke="TRANSPARENT" strokeType="INSIDE" width="182.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="625.0" layoutY="512.0" stroke="TRANSPARENT" strokeType="INSIDE" width="182.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="625.0" layoutY="547.0" stroke="TRANSPARENT" strokeType="INSIDE" width="182.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="625.0" layoutY="581.0" stroke="TRANSPARENT" strokeType="INSIDE" width="182.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="625.0" layoutY="616.0" stroke="TRANSPARENT" strokeType="INSIDE" width="182.0" />
+            <Label layoutX="162.0" layoutY="586.0" text="Entrega puntual, completo, pertinente, consistente, buena ortografía y redacción">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="124.0" layoutY="621.0" prefHeight="16.0" prefWidth="433.0" text="Buena ortografía y redacción, vocabulario profesional, dominio del tema y láminas claras">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="662.0" layoutY="483.0" text="Primer examen parcial">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="656.0" layoutY="517.0" text="Segundo examen parcial">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="700.0" layoutY="552.0" text="Tareas">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="692.0" layoutY="586.0" text="Proyectos">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="685.0" layoutY="621.0" text="Exposiciones">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="829.0" layoutY="478.0" stroke="TRANSPARENT" strokeType="INSIDE" width="91.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="828.0" layoutY="512.0" stroke="TRANSPARENT" strokeType="INSIDE" width="91.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="829.0" layoutY="616.0" stroke="TRANSPARENT" strokeType="INSIDE" width="91.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="829.0" layoutY="547.0" stroke="TRANSPARENT" strokeType="INSIDE" width="91.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="829.0" layoutY="581.0" stroke="TRANSPARENT" strokeType="INSIDE" width="91.0" />
+            <Label fx:id="labelObjetivo" layoutX="279.0" layoutY="189.0" prefHeight="38.0" prefWidth="537.0" />
+            <Label fx:id="labelPorcentajePrimerExamenParcial" layoutX="860.0" layoutY="483.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="labelPorcentajeSegundoExamenParcial" layoutX="860.0" layoutY="517.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="labelPorcentajeTareas" layoutX="858.0" layoutY="552.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="labelPorcentajeProyectos" layoutX="858.0" layoutY="586.0" prefHeight="17.0" prefWidth="31.0" />
+            <Label fx:id="labelPorcentajeExposiciones" layoutX="860.0" layoutY="621.0" prefHeight="17.0" prefWidth="31.0" />
+            <TableView fx:id="tableUnidades" layoutX="276.0" layoutY="253.0" onMouseClicked="#seleccionarUnidad" prefHeight="166.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="columnaUnidades" prefWidth="199.0" text="Unidades" />
+              </columns>
+            </TableView>
+            <Button fx:id="buttonDescargar" layoutX="904.0" layoutY="14.0" mnemonicParsing="false" onAction="#descargarPlanCurso" opacity="0.0" prefHeight="57.0" prefWidth="63.0" text="Button" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

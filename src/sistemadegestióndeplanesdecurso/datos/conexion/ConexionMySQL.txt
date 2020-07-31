@@ -1,0 +1,4 @@
+driver=com.mysql.jdbc.Driver
+usuario=SGPPADMIN
+contrasena=plGTkwVu
+url=jdbc:mysql://midguetg.ddns.net:3306/sppGalactico

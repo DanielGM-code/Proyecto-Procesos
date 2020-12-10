@@ -25,8 +25,8 @@ import javax.mail.internet.MimeMultipart;
  */
 public class Email {
     public static void enviarEmail(String usuario, String contraseña, String destinatario){
-        String remitente = "dagamo0605@gmail.com";
-        String contraseñaRemitente = "D5910FYD10";
+        String remitente = "correo@correo";
+        String contraseñaRemitente = "contraseña";
 
         Properties properties = new Properties();
         properties.put("mail.smtp.host", "smtp.gmail.com");
